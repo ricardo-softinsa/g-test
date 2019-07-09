@@ -5,6 +5,8 @@ pipeline{
             steps{
                 echo "Checking code from repo..."
 
+                bat "echo Building ${BRANCH_NAME}..."
+                
                 //Checkout code from the repository
                 //checkout scm
             }

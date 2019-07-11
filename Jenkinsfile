@@ -42,4 +42,15 @@ pipeline{
             }
         }
     }
+    post{
+        always{
+            deleteDir()
+        }
+        success{
+            echo "Pipeline executed successfully!"
+        }
+        failure{
+            echo "Pipeline failed to execute!"
+        }
+    }
 }

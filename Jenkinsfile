@@ -32,6 +32,11 @@ pipeline{
 
                 script{
                     def DOTNET = "\"C:\\Program Files\\dotnet\\dotnet\""
+
+                    //Clean the project
+                    bat "${DOTNET} clean \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""
+
+                    //Build the project
                     bat "${DOTNET} build \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""
                 }
             }

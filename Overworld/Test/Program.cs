@@ -23,7 +23,7 @@ namespace Test
 
         static void Main(string[] args)
         {
-            Consewfole.WriteLine(account.Name);
+            Console.WriteLine(account.Name);
             Console.WriteLine("Hello World!");
             Console.WriteLine(json);
         }

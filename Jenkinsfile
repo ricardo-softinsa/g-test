@@ -30,8 +30,10 @@ pipeline{
             steps{
                 echo "Build Application..."
 
-                //Build the application
-                bat "dotnet"
+                script{
+                    def DOTNET = "C:/Program Files/dotnet/dotnet"
+                    bat "${DOTNET}"
+                }
             }
         }
         stage('Deployment'){

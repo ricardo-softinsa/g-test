@@ -32,7 +32,7 @@ pipeline{
 
                 script{
                     def DOTNET = "\"C:\\Program Files\\dotnet\\dotnet\""
-                    bat "${DOTNET}"
+                    bat "${DOTNET} build \"${WORKSPACE}\Overworld\Test\Test.csproj\""
                 }
             }
         }

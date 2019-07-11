@@ -31,7 +31,7 @@ pipeline{
                 echo "Build Application..."
 
                 script{
-                    def DOTNET = "'C:\\Program Files\\dotnet\\dotnet'"
+                    def DOTNET = "\"C:\\Program Files\\dotnet\\dotnet\""
                     bat "${DOTNET}"
                 }
             }

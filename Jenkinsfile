@@ -5,10 +5,10 @@ pipeline{
             steps{
                 echo "Checking code from repo..."
 
-                bat "echo Building ${BRANCH_NAME}..."
+                //bat "echo Building ${BRANCH_NAME}..."
                 
                 //Checkout code from the repository
-                //checkout scm
+                checkout scm
             }
         }
         stage('SonarQube - Analysis'){
@@ -31,7 +31,7 @@ pipeline{
                 echo "Build Application..."
 
                 //Build the application
-                //bat "dotnet build"
+                bat "dotnet"
             }
         }
         stage('Deployment'){

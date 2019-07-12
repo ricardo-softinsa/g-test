@@ -774,11 +774,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\6100476\\Desktop\\dotnet\\Overworld\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\6100476\\Desktop\\dotnet-repo\\g-test\\Overworld\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "c:\\Users\\6100476\\Desktop\\dotnet\\Overworld\\Test\\Test.csproj",
+      "projectPath": "C:\\Users\\6100476\\Desktop\\dotnet-repo\\g-test\\Overworld\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\6100476\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\6100476\\Desktop\\dotnet\\Overworld\\Test\\obj\\",
+      "outputPath": "C:\\Users\\6100476\\Desktop\\dotnet-repo\\g-test\\Overworld\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

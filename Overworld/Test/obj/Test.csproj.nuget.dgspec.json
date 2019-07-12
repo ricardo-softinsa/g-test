@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\6100476\\Desktop\\dotnet\\Overworld\\Test\\Test.csproj": {}
+    "C:\\Users\\6100476\\Desktop\\dotnet-repo\\g-test\\Overworld\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\6100476\\Desktop\\dotnet\\Overworld\\Test\\Test.csproj": {
+    "C:\\Users\\6100476\\Desktop\\dotnet-repo\\g-test\\Overworld\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\6100476\\Desktop\\dotnet\\Overworld\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\6100476\\Desktop\\dotnet-repo\\g-test\\Overworld\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\6100476\\Desktop\\dotnet\\Overworld\\Test\\Test.csproj",
+        "projectPath": "C:\\Users\\6100476\\Desktop\\dotnet-repo\\g-test\\Overworld\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\6100476\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\6100476\\Desktop\\dotnet\\Overworld\\Test\\obj\\",
+        "outputPath": "C:\\Users\\6100476\\Desktop\\dotnet-repo\\g-test\\Overworld\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

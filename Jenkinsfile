@@ -21,6 +21,7 @@ pipeline{
                         bat "\"${scanner}\\bin\\sonar-scanner\""
                     }
                 }  
+                sleep 20
             }
         }
         stage('SonarQube - Quality Gates'){

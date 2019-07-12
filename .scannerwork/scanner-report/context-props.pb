@@ -1,2 +1,0 @@
-
-sonar.analysis.modepublish

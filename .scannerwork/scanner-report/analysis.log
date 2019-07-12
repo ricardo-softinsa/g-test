@@ -1,0 +1,216 @@
+Environment variables:
+  - =::=::\
+  - =C:=C:\Users\6100476\Desktop\dotnet-repo\g-test
+  - =ExitCode=00000000
+  - ALLUSERSPROFILE=C:\ProgramData
+  - ANDROID_HOME=C:\Users\6100476\AppData\Local\Android\Sdk
+  - ANSICON=77x1000 (77x19)
+  - ANSICON_DEF=7
+  - APPDATA=C:\Users\6100476\AppData\Roaming
+  - CMDER_ALIASES=1
+  - CMDER_CLINK=1
+  - CMDER_CONFIGURED=1
+  - CMDER_INIT_END=15:25:59,77
+  - CMDER_INIT_START=15:25:58,03
+  - CMDER_ROOT=C:\cmder
+  - CMDER_SHELL=cmd
+  - CMDER_USER_FLAGS= 
+  - COMPOSE_CONVERT_WINDOWS_PATHS=true
+  - COMPUTERNAME=PT6100476B
+  - ComSpec=C:\windows\system32\cmd.exe
+  - CommonProgramFiles=C:\Program Files\Common Files
+  - CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  - CommonProgramW6432=C:\Program Files\Common Files
+  - ConEmuANSI=ON
+  - ConEmuAnsiLog=
+  - ConEmuArgs=/Icon "C:\cmder\icons\cmder.ico" /Title Cmder
+  - ConEmuArgs2=
+  - ConEmuBackHWND=0x001608A6
+  - ConEmuBaseDir=C:\cmder\vendor\conemu-maximus5\ConEmu
+  - ConEmuBaseDirShort=C:\cmder\vendor\conemu-maximus5\ConEmu
+  - ConEmuBuild=180626
+  - ConEmuCfgDir=C:\cmder\vendor\conemu-maximus5
+  - ConEmuConfig=
+  - ConEmuDir=C:\cmder\vendor\conemu-maximus5
+  - ConEmuDrawHWND=0x001607A8
+  - ConEmuDrive=C:
+  - ConEmuHWND=0x00060B32
+  - ConEmuHooks=Enabled
+  - ConEmuPID=13700
+  - ConEmuPalette=Monokai
+  - ConEmuServerPID=12092
+  - ConEmuTask={cmd::Cmder}
+  - ConEmuWorkDir=C:\cmder
+  - ConEmuWorkDrive=C:
+  - DOCKER_CERT_PATH=C:\Users\6100476\.docker\machine\machines\default
+  - DOCKER_HOST=tcp://192.168.99.100:2376
+  - DOCKER_MACHINE_NAME=default
+  - DOCKER_TLS_VERIFY=1
+  - DOCKER_TOOLBOX_INSTALL_PATH=C:\Program Files\Docker Toolbox
+  - DriverData=C:\Windows\System32\Drivers\DriverData
+  - ERROR_CODE=0
+  - GIT_INSTALL_ROOT=C:\Program Files\Git
+  - HOME=C:\Users\6100476
+  - HOMEDRIVE=C:
+  - HOMEPATH=\Users\6100476
+  - JAVA_EXEC="C:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\bin\..\jre\bin\java.exe"
+  - JAVA_HOME=C:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\bin\..\jre
+  - LANG=en_US.UTF-8
+  - LOCALAPPDATA=C:\Users\6100476\AppData\Local
+  - LOGONSERVER=\\SITOMDC01
+  - NO_PROXY=192.168.99.100
+  - NUMBER_OF_PROCESSORS=8
+  - OS=Windows_NT
+  - OneDrive=C:\Users\6100476\OneDrive
+  - PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  - PLINK_PROTOCOL=ssh
+  - PROCESSOR_ARCHITECTURE=AMD64
+  - PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+  - PROCESSOR_LEVEL=6
+  - PROCESSOR_REVISION=8e0a
+  - PROJECT_HOME=C:\Users\6100476\Desktop\dotnet-repo\g-test
+  - PROMPT=CLINK $P$G
+  - PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+  - PUBLIC=C:\Users\Public
+  - Path=C:\cmder\bin;C:\cmder\vendor\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\6100476\AppData\Local\Microsoft\WindowsApps;C:\Users\6100476\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;C:\Users\6100476\AppData\Roaming\npm;C:\Users\6100476\.dotnet\tools;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\cmder
+  - ProgramData=C:\ProgramData
+  - ProgramFiles=C:\Program Files
+  - ProgramFiles(x86)=C:\Program Files (x86)
+  - ProgramW6432=C:\Program Files
+  - SESSIONNAME=Console
+  - SONAR_SCANNER_HOME=C:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\bin\..
+  - SVN_SSH=C:\\Program Files\\Git\\bin\\ssh.exe
+  - SonarScanner=C:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\bin
+  - SystemDrive=C:
+  - SystemRoot=C:\windows
+  - TEMP=C:\Users\6100476\AppData\Local\Temp
+  - TERM=cygwin
+  - TMP=C:\Users\6100476\AppData\Local\Temp
+  - USERDNSDOMAIN=CENITTOM.SOFTINSA.LOCAL
+  - USERDOMAIN=CENITTOM
+  - USERDOMAIN_ROAMINGPROFILE=CENITTOM
+  - USERNAME=6100476
+  - USERPROFILE=C:\Users\6100476
+  - VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+  - aliases=C:\cmder\config\user_aliases.cmd
+  - architecture=64
+  - architecture_bits=64
+  - ccall=call C:\cmder\vendor\bin\cexec.cmd
+  - cexec=C:\cmder\vendor\bin\cexec.cmd
+  - debug_output=0
+  - dotnet=C:\Program Files\dotnet
+  - fast_init=0
+  - feFlagName= 
+  - lib_base=call "C:\cmder\vendor\lib\lib_base.cmd"
+  - lib_console=call "C:\cmder\vendor\lib\lib_console.cmd"
+  - lib_git=call "C:\cmder\vendor\lib\lib_git.cmd"
+  - lib_path=call "C:\cmder\vendor\lib\lib_path.cmd"
+  - lib_profile=call "C:\cmder\vendor\lib\lib_profile.cmd"
+  - max_depth=1
+  - nix_tools=1
+  - scriptdir=C:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\bin
+  - time_init=0
+  - use_embedded_jre=true
+  - user_aliases=C:\cmder\config\user_aliases.cmd
+  - verbose_output=0
+  - windir=C:\windows
+System properties:
+  - awt.toolkit=sun.awt.windows.WToolkit
+  - file.encoding=Cp1252
+  - file.separator=\
+  - java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.awt.windows.WPrinterJob
+  - java.class.path=C:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\bin\..\lib\sonar-scanner-cli-4.0.0.1744.jar
+  - java.class.version=55.0
+  - java.home=C:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\jre
+  - java.io.tmpdir=C:\Users\6100476\AppData\Local\Temp\
+  - java.library.path=C:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\cmder\bin;C:\cmder\vendor\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\dotnet\;C:\Users\6100476\AppData\Local\Microsoft\WindowsApps;C:\Users\6100476\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;C:\Users\6100476\AppData\Roaming\npm;C:\Users\6100476\.dotnet\tools;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\cmder;.
+  - java.runtime.name=OpenJDK Runtime Environment
+  - java.runtime.version=11.0.3+7
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=11
+  - java.vendor=AdoptOpenJDK
+  - java.vendor.url=https://adoptopenjdk.net/
+  - java.vendor.url.bug=https://github.com/AdoptOpenJDK/openjdk-build/issues
+  - java.vendor.version=AdoptOpenJDK
+  - java.version=11.0.3
+  - java.version.date=2019-04-16
+  - java.vm.compressedOopsMode=Zero based
+  - java.vm.info=mixed mode
+  - java.vm.name=OpenJDK 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=11
+  - java.vm.vendor=AdoptOpenJDK
+  - java.vm.version=11.0.3+7
+  - jdk.debug=release
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Windows 10
+  - os.version=10.0
+  - path.separator=;
+  - project.home=C:\Users\6100476\Desktop\dotnet-repo\g-test
+  - scanner.home=C:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\bin\..
+  - sun.arch.data.model=64
+  - sun.boot.library.path=C:\sonar-scanner-cli-4.0.0.1744-windows\sonar-scanner-4.0.0.1744-windows\jre\bin
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=amd64
+  - sun.desktop=windows
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -X
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=Cp1252
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=
+  - sun.stderr.encoding=cp850
+  - sun.stdout.encoding=cp850
+  - user.country=US
+  - user.country.format=PT
+  - user.dir=C:\Users\6100476\Desktop\dotnet-repo\g-test
+  - user.home=C:\Users\6100476
+  - user.language=en
+  - user.language.format=pt
+  - user.name=6100476
+  - user.script=
+  - user.timezone=Europe/London
+  - user.variant=
+SonarQube plugins:
+  - SonarPython 1.11.0.2473 (python)
+  - SonarCSS 1.0.3.724 (cssfamily)
+  - JaCoCo 1.0.1.143 (jacoco)
+  - SonarGo 1.1.0.1612 (go)
+  - SonarKotlin 1.4.0.155 (kotlin)
+  - Svn 1.9.0.1295 (scmsvn)
+  - SonarJS 5.0.0.6962 (javascript)
+  - SonarRuby 1.4.0.155 (ruby)
+  - SonarScala 1.4.0.155 (sonarscala)
+  - SonarC# 7.10.0.7896 (csharp)
+  - SonarJava 5.10.1.16922 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - SonarHTML 3.1.0.1615 (web)
+  - Git 1.7.0.1491 (scmgit)
+  - SonarFlex 2.4.0.1222 (flex)
+  - SonarXML 2.0.1.2020 (xml)
+  - SonarPHP 2.16.0.4355 (php)
+  - SonarTS 1.9.0.3766 (typescript)
+  - SonarVB 7.10.0.7896 (vbnet)
+Global server settings:
+  - sonar.core.id=BF41A1F2-AWvmcYNYEo1j1TKr0NAi
+  - sonar.core.startTime=2019-07-12T14:48:46+0100
+Project server settings:
+Project scanner properties:
+  - sonar.analysis.mode=publish
+  - sonar.host.url=http://localhost:9000
+  - sonar.projectBaseDir=C:\Users\6100476\Desktop\dotnet-repo\g-test
+  - sonar.projectKey=G-Test
+  - sonar.projectName=G-Test
+  - sonar.projectVersion=1.0.0
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=4.0.0.1744
+  - sonar.sourceEncoding=windows-1252
+  - sonar.sources=.
+  - sonar.verbose=true
+  - sonar.working.directory=C:\Users\6100476\Desktop\dotnet-repo\g-test\.scannerwork

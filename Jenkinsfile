@@ -36,12 +36,12 @@ pipeline{
                     //Clean the project
                     bat "${DOTNET} clean \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""
                     //Similar command is:
-                    //dotnet msbuild -restore -target:Build
+                    //dotnet msbuild -restore -target:Clean
 
                     //Build the project
                     bat "${DOTNET} build \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""
                     //Similar command is:
-                    //dotnet msbuild -restore -target:Clean
+                    //dotnet msbuild -restore -target:Build
 
                 }
             }

@@ -14,11 +14,27 @@ pipeline{
         stage('SonarQube - Analysis'){
             steps{
                 echo "SonarQube Analysis..."
+
+                script{
+                    def scanner = tool 'SonarQube Server';
+                    withSonarQubeEnv('Sonar') {
+                        sh "${scanner}bin/sonar-scanner"
+                    }
+                }  
             }
         }
         stage('SonarQube - Quality Gates'){
             steps{
                 echo "Checking Quality Gates..."
+
+                script{
+                    timeout(time: 1, unit: 'MINUTES') { // Just in case something goes wrong, pipeline will be killed after a timeout
+                        def qg = waitForQualityGate() // Reuse taskId previously collected by withSonarQubeEnv
+                            if (qg.status != 'OK') {
+                                error "Pipeline aborted due to quality gate failure: ${qg.status}"
+                        }
+                    }    
+                }
             }
         }
         stage('Validations'){

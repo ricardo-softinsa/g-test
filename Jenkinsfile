@@ -59,7 +59,7 @@ pipeline{
                     //def HOLDER = bat "git diff-tree --no-commit-id --name-only -r ${env.GIT_COMMIT}"
                     echo HOLDER
                     def MOD = HOLDER.split("\n");
-                    echo MOD[0]
+                    echo MOD
 
 
 

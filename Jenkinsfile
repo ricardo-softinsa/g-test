@@ -66,12 +66,10 @@ pipeline{
 
                     def MODULE_LIST = []
 
-                    echo "1"
 
                     for (i = 0; i < MOD.length; i++) {
-                        echo "2"
                         element = MOD[i]
-                        echo "3" 
+                        echo element
                         if(!MODULE_LIST.findAll{element.contains(it)}.any{true}){
                             "Got Here"
                             MODULE_LIST.add(element)

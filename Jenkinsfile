@@ -73,6 +73,7 @@ pipeline{
                         element = MOD[i]
                         echo "3" 
                         if(!MODULE_LIST.findAll{element.contains(it)}.any{true}){
+                            "Got Here"
                             MODULE_LIST.add(element)
                         }
                     }

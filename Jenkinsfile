@@ -106,7 +106,8 @@ pipeline{
     }
     post{
         always{
-            deleteDir()
+            echo "Always"
+            //deleteDir()
         }
         success{
             echo "Pipeline executed successfully!"

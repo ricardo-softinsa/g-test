@@ -1,0 +1,7 @@
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\bin\Overworld.dll
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\bin\Overworld.pdb
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\Overworld\Overworld\obj\Release\Overworld.csprojAssemblyReference.cache
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\Overworld\Overworld\obj\Release\Overworld.csproj.CoreCompileInputs.cache
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\Overworld\Overworld\obj\Release\Overworld.csproj.CopyComplete
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\Overworld\Overworld\obj\Release\Overworld.dll
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\Overworld\Overworld\obj\Release\Overworld.pdb

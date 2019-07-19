@@ -1,0 +1,82 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="Overworld.Modules.Overworld" type="Skin" version="00.00.01">
+      <friendlyName>Overworld</friendlyName>
+      <description>A responsive DNN skin using Bootstrap 3. Requires installation via the Host/Extensions page.</description>
+      <owner>
+        <name>Overworld</name>
+        <organization>Overworld</organization>
+        <url>Overworld</url>
+        <email>Overworld</email>
+      </owner>
+      <azureCompatible>true</azureCompatible>
+      <license src="license.txt"></license>
+      <releaseNotes src="releasenotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">07.01.00</dependency>
+      </dependencies>
+      <components>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>portals/_default/skins/Overworld</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>Overworld.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>Overworld</skinName>
+            <basePath />
+            <skinFile>
+              <name>Home.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Edit.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>PopupSkin.ascx</name>
+            </skinFile>
+          </skinFiles>
+        </component>
+      </components>
+    </package>
+    <package name="Overworld.Modules.Containers.Overworld" type="Container" version="00.00.01">
+      <friendlyName>Overworld</friendlyName>
+      <description>Containers for the Overworld Skin package.</description>
+      <owner>
+        <name>Overworld</name>
+        <organization>Overworld</organization>
+        <url>Overworld</url>
+        <email>Overworld</email>
+      </owner>
+      <license src="license.txt"></license>
+      <releaseNotes src="releasenotes.txt"></releaseNotes>
+      <dependencies>
+        <dependency type="CoreVersion">07.01.00</dependency>
+      </dependencies>
+      <components>
+        <component type="Container">
+          <containerFiles>
+            <containerName>Overworld</containerName>
+            <basepath/>
+            <containerFile>
+              <name>Main.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Blank.ascx</name>
+            </containerFile>
+          </containerFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

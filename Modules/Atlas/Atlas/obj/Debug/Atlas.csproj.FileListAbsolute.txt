@@ -1,0 +1,7 @@
+C:\Users\6100476\source\repos\bin\Atlas.dll
+C:\Users\6100476\source\repos\bin\Atlas.pdb
+C:\Users\6100476\source\repos\Atlas\Atlas\obj\Debug\Atlas.csprojAssemblyReference.cache
+C:\Users\6100476\source\repos\Atlas\Atlas\obj\Debug\Atlas.csproj.CoreCompileInputs.cache
+C:\Users\6100476\source\repos\Atlas\Atlas\obj\Debug\Atlas.csproj.CopyComplete
+C:\Users\6100476\source\repos\Atlas\Atlas\obj\Debug\Atlas.dll
+C:\Users\6100476\source\repos\Atlas\Atlas\obj\Debug\Atlas.pdb

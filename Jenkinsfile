@@ -56,14 +56,15 @@ pipeline{
                     def DOTNET = "\"C:\\Program Files\\dotnet\\dotnet\""
 
                     HOLDER = bat(returnStdout: true, script: "@git diff-tree --no-commit-id --name-only -r \"${env.GIT_COMMIT}\" ")
-                    //def HOLDER = bat "git diff-tree --no-commit-id --name-only -r ${env.GIT_COMMIT}"
-                    echo "Echooing holder"
-                    echo HOLDER
-                    echo "Stop echooing holder"
+
                     def MOD = HOLDER.split("\n");
 
                     println "Length is " + MOD.length
 
+                    def test = ["1", "2", "3"]
+                    echo test.contains("2")
+
+                    /*
                     def MODULE_LIST = ["Jenkinsfile"]
 
 
@@ -76,6 +77,7 @@ pipeline{
                             MODULE_LIST.add(element)
                         }
                     }
+                    */
                     /*
                     for (j=0; j< MODULE_LIST.length; j++){
                         echo MODULE_LIST[j]

@@ -66,7 +66,7 @@ pipeline{
                         echo "It's not in the list"
                         test.add("100")
                     }
-                    echo test
+                    
 
                     /*
                     def MODULE_LIST = ["Jenkinsfile"]

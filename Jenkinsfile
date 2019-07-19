@@ -76,10 +76,10 @@ pipeline{
                             MODULE_LIST.add(element)
                         }
                     }
-
+                    /*
                     for (j=0; j< MODULE_LIST.length; j++){
                         echo MODULE_LIST[j]
-                    }
+                    }*/
 
                     //Clean the project
                     //bat "${DOTNET} clean \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""

@@ -54,27 +54,17 @@ pipeline{
 
                 script{
                     def DOTNET = "\"C:\\Program Files\\dotnet\\dotnet\""
+                    def MSBUILD = "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe\""
 
                     HOLDER = bat(returnStdout: true, script: "@git diff-tree --no-commit-id --name-only -r \"${env.GIT_COMMIT}\" ")
 
                     def MOD = HOLDER.split("\n");
-
-                    println "Length is " + MOD.length
-
-                    /*
-                    def test = ["1", "2", "3"]
-                    if(!test.contains("20")){
-                        echo "It's not in the list"
-                        test.add("100")
-                    }
-                    */
                     
                     def MODULE_LIST = []
 
                     for (i = 0; i < MOD.length; i++) {
                         element = MOD[i]
-
-                        
+ 
                         if(element.substring(0,7)=="Modules"){
                             module=element.split("/");
                             echo module[1]
@@ -89,6 +79,8 @@ pipeline{
                     for (j=0; j< MODULE_LIST.size(); j++){
                         echo MODULE_LIST[j]
                     }
+
+                    echo ${MSBUILD}
 
                     //Clean the project
                     //bat "${DOTNET} clean \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""

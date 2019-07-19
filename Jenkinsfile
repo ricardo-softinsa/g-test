@@ -72,12 +72,13 @@ pipeline{
                     def MODULE_LIST = []
 
                     for (i = 0; i < MOD.length; i++) {
-                        element = MOD[i].split("/");
-                        echo element[1]
-                        /*
+                        element = MOD[i]
+
+                        
                         if(element.substring(0,7)=="Modules"){
-                            module=element
-                        }*/
+                            module=element.split("/");
+                            echo module[1]
+                        }
 
                         /*
                         if(!MODULE_LIST.contains(element) && element.substring(0,7)=="Modules"){

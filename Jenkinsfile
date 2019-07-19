@@ -65,6 +65,9 @@ pipeline{
                     echo MOD[0]
                     echo MOD[1]
 
+                    echo "Validation"
+                    echo MOD.contains("Modules/Module A/info.txt")
+
 
 
                     //Clean the project

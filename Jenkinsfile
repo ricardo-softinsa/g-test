@@ -62,11 +62,13 @@ pipeline{
                     echo "Stop echooing holder"
                     def MOD = HOLDER.split("\n");
 
-                    echo "Print MOD"  
-                    echo MOD[1]
-                    echo MOD[2]
+                    echo MOD.length
 
-                    def str = "Modules/Module A/infof.txt"
+                    /*
+                    for (i = 0; i <3; i++) {
+                        System.out.println("Hello World")
+                    }
+                    */
 
                     echo "Validation"
                     assert MOD.findAll{str.contains(it)}.any{true}

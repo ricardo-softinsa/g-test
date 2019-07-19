@@ -68,14 +68,13 @@ pipeline{
                         test.add("100")
                     }
                     */
-                    Modules
                     
                     def MODULE_LIST = []
 
                     for (i = 0; i < MOD.length; i++) {
                         element = MOD[i]
                         echo element
-                        
+                        echo element.substring(0,6)
                         if(!MODULE_LIST.contains(element) && element.substring(0,6)=="Modules"){
                             echo "Got Here"
                             MODULE_LIST.add(element)

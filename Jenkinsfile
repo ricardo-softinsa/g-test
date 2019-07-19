@@ -62,7 +62,7 @@ pipeline{
                     echo "Stop echooing holder"
                     def MOD = HOLDER.split("\n");
 
-                    echo MOD.length
+                    println MOD.length
 
                     /*
                     for (i = 0; i <3; i++) {

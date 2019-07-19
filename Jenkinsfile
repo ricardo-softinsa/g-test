@@ -64,6 +64,8 @@ pipeline{
 
                     println "Length is " + MOD.length
 
+                    def MODULE_LIST = []
+
                     for (i = 0; i <MOD.length; i++) {
                         element = MOD[i] 
                         if(!MODULE_LIST.findAll{element.contains(it)}.any{true}){

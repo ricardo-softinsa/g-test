@@ -63,13 +63,13 @@ pipeline{
                     def MOD = HOLDER.split("\n");
 
                     echo "Print MOD"
-                    echo MOD[0]
                     echo MOD[1]
+                    echo MOD[2]
 
                     def str = "Modules/Module A/info.txt"
 
                     echo "Validation"
-                    assert MOD.findAll{str.contains(it)}.any{true}
+                    echo assert MOD.findAll{str.contains(it)}.any{true}
 
 
 

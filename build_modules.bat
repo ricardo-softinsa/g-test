@@ -1,4 +1,6 @@
 @echo off
 
 echo %1
-echo %1[0]
+cd Modules
+cd %1
+dir

@@ -77,12 +77,13 @@ pipeline{
                     
                     echo "Gonna print final list now"
                     for (j=0; j< MODULE_LIST.size(); j++){
-                        echo MODULE_LIST[j]
+                        //echo MODULE_LIST[j]
+                        bat "build_modules.bat ${MODULE_LIST[j]}"
                     }
 
-                    echo MSBUILD
+                    //echo MSBUILD
 
-                    bat "build_modules.bat \"${MODULE_LIST}\""
+                    //bat "build_modules.bat \"${MODULE_LIST}\""
 
                     //Clean the project
                     //bat "${DOTNET} clean \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""

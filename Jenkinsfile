@@ -78,18 +78,17 @@ pipeline{
                         if(element.substring(0,7)=="Modules"){
                             module=element.split("/");
                             echo module[1]
-                        }
 
-                        /*
-                        if(!MODULE_LIST.contains(element) && element.substring(0,7)=="Modules"){
-                            echo "Got Here"
-                            MODULE_LIST.add(element)
-                        }*/
+                            if(!MODULE_LIST.contains(module[1])){
+                                MODULE_LIST.add(module[1]))
+                            }
+                        }
                     }
-                    /*
+                    
+                    echo "Gonna print final list now"
                     for (j=0; j< MODULE_LIST.size(); j++){
                         echo MODULE_LIST[j]
-                    }*/
+                    }
 
                     //Clean the project
                     //bat "${DOTNET} clean \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""

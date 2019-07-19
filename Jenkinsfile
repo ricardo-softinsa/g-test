@@ -62,7 +62,7 @@ pipeline{
                     echo "Stop echooing holder"
                     def MOD = HOLDER.split("\n");
 
-                    println MOD.length
+                    println "Length is " + MOD.length
 
                     /*
                     for (i = 0; i <3; i++) {
@@ -71,7 +71,7 @@ pipeline{
                     */
 
                     echo "Validation"
-                    assert MOD.findAll{str.contains(it)}.any{true}
+                    //assert MOD.findAll{str.contains(it)}.any{true}
 
 
 

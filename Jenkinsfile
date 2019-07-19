@@ -80,7 +80,7 @@ pipeline{
                             echo module[1]
 
                             if(!MODULE_LIST.contains(module[1])){
-                                MODULE_LIST.add(module[1]))
+                                MODULE_LIST.add(module[1])
                             }
                         }
                     }

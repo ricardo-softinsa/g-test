@@ -61,27 +61,27 @@ pipeline{
 
                     println "Length is " + MOD.length
 
+                    /*
                     def test = ["1", "2", "3"]
                     if(!test.contains("20")){
                         echo "It's not in the list"
                         test.add("100")
                     }
+                    */
+
                     
-
-                    /*
                     def MODULE_LIST = ["Jenkinsfile"]
-
 
                     for (i = 0; i < MOD.length; i++) {
                         element = MOD[i]
                         echo element
                         
-                        if(MODULE_LIST.contains(element)){
-                            "Got Here"
+                        if(!MODULE_LIST.contains(element)){
+                            echo "Got Here"
                             MODULE_LIST.add(element)
                         }
                     }
-                    */
+                    
                     /*
                     for (j=0; j< MODULE_LIST.length; j++){
                         echo MODULE_LIST[j]

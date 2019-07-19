@@ -70,8 +70,8 @@ pipeline{
                     for (i = 0; i < MOD.length; i++) {
                         element = MOD[i]
                         echo element
-                        MODULE_LIST.findAll{element.contains(it)}.any{true}
-                        if(!MODULE_LIST.findAll{element.contains(it)}.any{true}){
+                        
+                        if(MODULE_LIST.contains(element)){
                             "Got Here"
                             MODULE_LIST.add(element)
                         }

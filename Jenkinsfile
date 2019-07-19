@@ -7,6 +7,9 @@ pipeline{
 
                 //bat "echo Building ${BRANCH_NAME}..."
                 
+                //Print out all environment variables
+                echo sh(returnStdout: true, script: 'env') 
+
                 //Checkout code from the repository
                 checkout scm
             }

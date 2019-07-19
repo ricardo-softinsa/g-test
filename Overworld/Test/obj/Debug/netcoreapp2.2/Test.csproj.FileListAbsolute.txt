@@ -9,3 +9,14 @@ c:\Users\6100476\Desktop\dotnet\Overworld\Test\obj\Debug\netcoreapp2.2\Test.Asse
 c:\Users\6100476\Desktop\dotnet\Overworld\Test\obj\Debug\netcoreapp2.2\Test.AssemblyInfo.cs
 c:\Users\6100476\Desktop\dotnet\Overworld\Test\obj\Debug\netcoreapp2.2\Test.dll
 c:\Users\6100476\Desktop\dotnet\Overworld\Test\obj\Debug\netcoreapp2.2\Test.pdb
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\bin\Debug\netcoreapp2.2\Test.deps.json
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\bin\Debug\netcoreapp2.2\Test.runtimeconfig.json
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\bin\Debug\netcoreapp2.2\Test.runtimeconfig.dev.json
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\bin\Debug\netcoreapp2.2\Test.dll
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\bin\Debug\netcoreapp2.2\Test.pdb
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\obj\Debug\netcoreapp2.2\Test.csprojAssemblyReference.cache
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\obj\Debug\netcoreapp2.2\Test.csproj.CoreCompileInputs.cache
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\obj\Debug\netcoreapp2.2\Test.AssemblyInfoInputs.cache
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\obj\Debug\netcoreapp2.2\Test.AssemblyInfo.cs
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\obj\Debug\netcoreapp2.2\Test.dll
+C:\Users\6100476\Desktop\dotnet-repo\g-test\Overworld\Test\obj\Debug\netcoreapp2.2\Test.pdb

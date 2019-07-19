@@ -64,12 +64,13 @@ pipeline{
 
                     println "Length is " + MOD.length
 
-                    def MODULE_LIST = []
+                    def MODULE_LIST = ["Jenkinsfile"]
 
 
                     for (i = 0; i < MOD.length; i++) {
                         element = MOD[i]
                         echo element
+                        MODULE_LIST.findAll{element.contains(it)}.any{true}
                         if(!MODULE_LIST.findAll{element.contains(it)}.any{true}){
                             "Got Here"
                             MODULE_LIST.add(element)

@@ -8,7 +8,7 @@ pipeline{
                 //bat "echo Building ${BRANCH_NAME}..."
                 
                 //Print out all environment variables
-                echo bat(returnStdout: true, script: 'set')  
+                //echo bat(returnStdout: true, script: 'set')  
 
                 //Checkout code from the repository
                 checkout scm
@@ -73,9 +73,7 @@ pipeline{
 
                     for (i = 0; i < MOD.length; i++) {
                         element = MOD[i]
-                        echo element
-                        echo element.substring(0,6)
-                        if(!MODULE_LIST.contains(element) && element.substring(0,6)=="Modules"){
+                        if(!MODULE_LIST.contains(element) && element.substring(0,7)=="Modules"){
                             echo "Got Here"
                             MODULE_LIST.add(element)
                         }

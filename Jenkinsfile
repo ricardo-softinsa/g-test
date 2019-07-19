@@ -66,10 +66,10 @@ pipeline{
                     echo MOD[1]
                     echo MOD[2]
 
-                    def str = "Modules/Module A/info.txt"
+                    def str = "Modules/Module A/infof.txt"
 
                     echo "Validation"
-                    echo assert MOD.findAll{str.contains(it)}.any{true}
+                    assert MOD.findAll{str.contains(it)}.any{true}
 
 
 

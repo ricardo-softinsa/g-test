@@ -68,15 +68,15 @@ pipeline{
                         test.add("100")
                     }
                     */
-
+                    Modules
                     
-                    def MODULE_LIST = ["Jenkinsfile"]
+                    def MODULE_LIST = []
 
                     for (i = 0; i < MOD.length; i++) {
                         element = MOD[i]
                         echo element
                         
-                        if(!MODULE_LIST.contains(element)){
+                        if(!MODULE_LIST.contains(element) && element.substring(0,6)=="Modules"){
                             echo "Got Here"
                             MODULE_LIST.add(element)
                         }

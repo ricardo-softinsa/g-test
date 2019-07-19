@@ -82,10 +82,9 @@ pipeline{
                         }
                     }
                     
-                    /*
-                    for (j=0; j< MODULE_LIST.length; j++){
+                    for (j=0; j< MODULE_LIST.size(); j++){
                         echo MODULE_LIST[j]
-                    }*/
+                    }
 
                     //Clean the project
                     //bat "${DOTNET} clean \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""

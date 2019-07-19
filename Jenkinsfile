@@ -82,7 +82,7 @@ pipeline{
 
                     echo MSBUILD
 
-                    bat "build_modules.bat ${MODULE_LIST}"
+                    bat "build_modules.bat \"${MODULE_LIST}\""
 
                     //Clean the project
                     //bat "${DOTNET} clean \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""

@@ -66,7 +66,7 @@ pipeline{
 
                     def MODULE_LIST = []
 
-                    for (i = 0; i < MOD.length; i++) {
+                    for (i = 0; i < 3; i++) {
                         element = MOD[i] 
                         if(!MODULE_LIST.findAll{element.contains(it)}.any{true}){
                             MODULE_LIST.add(element)

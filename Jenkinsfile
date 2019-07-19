@@ -55,11 +55,12 @@ pipeline{
                 script{
                     def DOTNET = "\"C:\\Program Files\\dotnet\\dotnet\""
 
-                    def HOLDER = bat(returnStdout: true, script: "git diff-tree --no-commit-id --name-only -r \"${env.GIT_COMMIT}\" ")
+                    HOLDER = bat(returnStdout: true, script: "git diff-tree --no-commit-id --name-only -r \"${env.GIT_COMMIT}\" ")
                     //def HOLDER = bat "git diff-tree --no-commit-id --name-only -r ${env.GIT_COMMIT}"
                     echo HOLDER
                     def MOD = HOLDER.split("\n");
-                    echo MOD
+                    echo MOD[0]
+                    echo MOD[1]
 
 
 

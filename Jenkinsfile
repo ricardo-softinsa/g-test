@@ -17,7 +17,7 @@ pipeline{
         stage('SonarQube - Analysis'){
             steps{
                 echo "SonarQube Analysis..."
-
+                /*
                 script{
                     def scanner = tool 'SonarScanner';
                     withSonarQubeEnv('SonarQubeServer') {
@@ -25,12 +25,13 @@ pipeline{
                     }
                 }  
                 sleep 20
+                */
             }
         }
         stage('SonarQube - Quality Gates'){
             steps{
                 echo "Checking Quality Gates..."
-
+                /*
                 script{
                     timeout(time: 1, unit: 'MINUTES') { // Just in case something goes wrong, pipeline will be killed after a timeout
                         def qg = waitForQualityGate() // Reuse taskId previously collected by withSonarQubeEnv
@@ -39,6 +40,7 @@ pipeline{
                         }
                     }    
                 }
+                */
             }
         }
         stage('Validations'){
@@ -53,13 +55,19 @@ pipeline{
                 script{
                     def DOTNET = "\"C:\\Program Files\\dotnet\\dotnet\""
 
+                    def HOLDER = bat "git diff-tree --no-commit-id --name-only -r ${env.GIT_COMMIT}"
+                    def MOD = HOLDER.split("\n");
+                    echo MOD[0]
+                    echo MOD[1]
+
+
                     //Clean the project
-                    bat "${DOTNET} clean \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""
+                    //bat "${DOTNET} clean \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""
                     //Similar command is:
                     //dotnet msbuild -restore -target:Clean
 
                     //Build the project
-                    bat "${DOTNET} build \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""
+                    //bat "${DOTNET} build \"${WORKSPACE}\\Overworld\\Test\\Test.csproj\""
                     //Similar command is:
                     //dotnet msbuild -restore -target:Build
 

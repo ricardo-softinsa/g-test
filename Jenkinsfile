@@ -33,8 +33,9 @@ pipeline{
                 echo "SonarQube Analysis..."
                 script{
                     newFile.append("\r\nStage ${STAGE_NAME} - Begin")
+                    error "ergerregreg"
                 }
-                echo ${fwewef}
+                
                 /*
                 script{
                     def scanner = tool 'SonarScanner';

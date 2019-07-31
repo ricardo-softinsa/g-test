@@ -22,7 +22,7 @@ pipeline{
                 //Checkout code from the repository
                 checkout scm
                 script{
-                    newFile.append("\\r\\nStage ${STAGE_NAME} - Successfull")
+                    newFile.append("\r\nStage ${STAGE_NAME} - Successfull")
                 }
             }
         }

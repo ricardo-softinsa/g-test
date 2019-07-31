@@ -34,7 +34,7 @@ pipeline{
                 script{
                     newFile.append("\r\nStage ${STAGE_NAME} - Begin")
                 }
-                regerg
+                echo ${fwewef}
                 /*
                 script{
                     def scanner = tool 'SonarScanner';

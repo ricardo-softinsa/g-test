@@ -4,14 +4,20 @@ pipeline{
         stage('Git'){
             steps{
                 echo "Checking code from repo..."
-
+/*
+                script{
+                    def newFile = new File("C:\Users\6100476\Desktop\teste\info.txt")
+                    newFile.createNewFile()
+                }
+*/
                 //bat "echo Building ${BRANCH_NAME}..."
                 
                 //Print out all environment variables
-                //echo bat(returnStdout: true, script: 'set')  
+                echo bat(returnStdout: true, script: 'set')  
 
                 //Checkout code from the repository
                 checkout scm
+                //newFile.write("     Stage ${}")
             }
         }
         stage('SonarQube - Analysis'){

@@ -5,3 +5,10 @@ C:\Users\6100476\source\repos\Atlas\Atlas\obj\Release\Atlas.csproj.CopyComplete
 C:\Users\6100476\source\repos\Atlas\Atlas\obj\Release\Atlas.dll
 C:\Users\6100476\source\repos\Atlas\Atlas\obj\Release\Atlas.pdb
 C:\Users\6100476\source\repos\Atlas\Atlas\obj\Release\Atlas.csprojAssemblyReference.cache
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\bin\Atlas.dll
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\bin\Atlas.pdb
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\Atlas\Atlas\obj\Release\Atlas.csprojAssemblyReference.cache
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\Atlas\Atlas\obj\Release\Atlas.csproj.CoreCompileInputs.cache
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\Atlas\Atlas\obj\Release\Atlas.csproj.CopyComplete
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\Atlas\Atlas\obj\Release\Atlas.dll
+C:\Users\6100476\Desktop\DOTNETNUKE\dotnet-repo\g-test\Modules\Atlas\Atlas\obj\Release\Atlas.pdb

@@ -53,8 +53,6 @@ pipeline{
                 echo "Build Application..."
 
                 script{
-                    def DOTNET = "\"C:\\Program Files\\dotnet\\dotnet\""
-                    def MSBUILD = "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe\""
 
                     HOLDER = bat(returnStdout: true, script: "@git diff-tree --no-commit-id --name-only -r \"${env.GIT_COMMIT}\" ")
 

@@ -11,7 +11,7 @@ pipeline{
                 }
 */
                 //bat "echo Building ${BRANCH_NAME}..."
-                
+                echo "${STAGE_NAME}"
                 //Print out all environment variables
                 echo bat(returnStdout: true, script: 'set')  
 

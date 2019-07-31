@@ -9,7 +9,7 @@ pipeline{
                 echo "Checking code from repo..."
 
                 script{
-                    newFile = new File("C:\\Users\\6100476\\Desktop\\teste\\info.txt")
+                    newFile = new File("C:\\Users\\6100476\\Desktop\\teste\\\"${JOB_BASE_NAME} - ${BUILD_DISPLAY_NAME}\".txt")
                     newFile.createNewFile()
                     newFile.write("Stage ${STAGE_NAME} - Begin")
                 }

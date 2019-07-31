@@ -9,7 +9,7 @@ pipeline{
                 echo "Checking code from repo..."
 
                 script{
-                    def fileName = "C:\\Users\\6100476\\Desktop\\teste\\\"${JOB_BASE_NAME} - ${BUILD_DISPLAY_NAME}\".txt"
+                    def fileName = "C:\\Users\\6100476\\Desktop\\teste\\${JOB_BASE_NAME} - ${BUILD_DISPLAY_NAME}.txt"
                     echo fileName
                     newFile = new File(fileName)
                     newFile.createNewFile()

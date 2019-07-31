@@ -31,6 +31,9 @@ pipeline{
         stage('SonarQube - Analysis'){
             steps{
                 echo "SonarQube Analysis..."
+                script{
+                    newFile.append("\r\nStage ${STAGE_NAME} - Begin")
+                }
                 /*
                 script{
                     def scanner = tool 'SonarScanner';
@@ -40,11 +43,17 @@ pipeline{
                 }  
                 sleep 20
                 */
+                script{
+                    newFile.append("\r\nStage ${STAGE_NAME} - Successfull")
+                }
             }
         }
         stage('SonarQube - Quality Gates'){
             steps{
                 echo "Checking Quality Gates..."
+                script{
+                    newFile.append("\r\nStage ${STAGE_NAME} - Begin")
+                }
                 /*
                 script{
                     timeout(time: 1, unit: 'MINUTES') { // Just in case something goes wrong, pipeline will be killed after a timeout
@@ -55,11 +64,9 @@ pipeline{
                     }    
                 }
                 */
-            }
-        }
-        stage('Validations'){
-            steps{
-                echo "Performing Validations"   
+                script{
+                    newFile.append("\r\nStage ${STAGE_NAME} - Successfull")
+                }
             }
         }
         stage('Build'){
@@ -67,6 +74,7 @@ pipeline{
                 echo "Build Application..."
 
                 script{
+                    newFile.append("\r\nStage ${STAGE_NAME} - Begin")
 
                     HOLDER = bat(returnStdout: true, script: "@git diff-tree --no-commit-id --name-only -r \"${env.GIT_COMMIT}\" ")
 
@@ -107,6 +115,7 @@ pipeline{
                     //Similar command is:
                     //dotnet msbuild -restore -target:Build
 
+                    newFile.append("\r\nStage ${STAGE_NAME} - Successfull")
                 }
             }
         }
@@ -120,6 +129,9 @@ pipeline{
         always{
             echo "Always"
             //deleteDir()
+            script{
+                newFile.append("\r\nStage ${STAGE_NAME} - Successfull")
+            }
         }
         success{
             echo "Pipeline executed successfully!"

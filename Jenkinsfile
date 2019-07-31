@@ -6,7 +6,7 @@ pipeline{
                 echo "Checking code from repo..."
 
                 script{
-                    def newFile = new File("C:\Users\6100476\Desktop\teste\info.txt")
+                    def newFile = new File("C:\\Users\\6100476\\Desktop\\teste\\info.txt")
                     newFile.createNewFile()
                     newFile.write("Stage ${STAGE_NAME} - Begin")
                 }

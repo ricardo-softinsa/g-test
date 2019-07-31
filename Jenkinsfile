@@ -2,6 +2,7 @@ pipeline{
     agent any
     environment{
         newFile=null
+        CURRENT_STAGE=null
     }
     stages{
         stage('Git'){
@@ -9,6 +10,7 @@ pipeline{
                 echo "Checking code from repo..."
 
                 script{
+                    CURRENT_STAGE="${STAGE_NAME}"
                     def fileName = "C:\\Users\\6100476\\Desktop\\teste\\${JOB_BASE_NAME} - ${BUILD_DISPLAY_NAME}.txt"
                     echo fileName
                     newFile = new File(fileName)
@@ -32,6 +34,7 @@ pipeline{
             steps{
                 echo "SonarQube Analysis..."
                 script{
+                    CURRENT_STAGE="${STAGE_NAME}"
                     newFile.append("\r\nStage ${STAGE_NAME} - Begin")
                     error "ergerregreg"
                 }
@@ -54,6 +57,7 @@ pipeline{
             steps{
                 echo "Checking Quality Gates..."
                 script{
+                    CURRENT_STAGE="${STAGE_NAME}"
                     newFile.append("\r\nStage ${STAGE_NAME} - Begin")
                 }
                 /*
@@ -76,6 +80,7 @@ pipeline{
                 echo "Build Application..."
 
                 script{
+                    CURRENT_STAGE="${STAGE_NAME}"
                     newFile.append("\r\nStage ${STAGE_NAME} - Begin")
 
                     HOLDER = bat(returnStdout: true, script: "@git diff-tree --no-commit-id --name-only -r \"${env.GIT_COMMIT}\" ")
@@ -137,6 +142,7 @@ pipeline{
         }
         failure{
             echo "Pipeline failed to execute!"
+            newFile.append("\r\nPipeline failed at Stage ${CURRENT_STAGE}")
         }
     }
 }

@@ -34,6 +34,7 @@ pipeline{
                 script{
                     newFile.append("\r\nStage ${STAGE_NAME} - Begin")
                 }
+                regerg
                 /*
                 script{
                     def scanner = tool 'SonarScanner';
@@ -129,9 +130,6 @@ pipeline{
         always{
             echo "Always"
             //deleteDir()
-            script{
-                newFile.append("\r\nStage ${STAGE_NAME} - Successfull")
-            }
         }
         success{
             echo "Pipeline executed successfully!"

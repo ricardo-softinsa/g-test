@@ -1,12 +1,15 @@
 pipeline{
     agent any
+    environment{
+        newFile=null
+    }
     stages{
         stage('Git'){
             steps{
                 echo "Checking code from repo..."
 
                 script{
-                    def newFile = new File("C:\\Users\\6100476\\Desktop\\teste\\info.txt")
+                    newFile = new File("C:\\Users\\6100476\\Desktop\\teste\\info.txt")
                     newFile.createNewFile()
                     newFile.write("Stage ${STAGE_NAME} - Begin")
                 }

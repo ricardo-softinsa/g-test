@@ -142,7 +142,9 @@ pipeline{
         }
         failure{
             echo "Pipeline failed to execute!"
-            newFile.append("\r\nPipeline failed at Stage ${CURRENT_STAGE}")
+            script{
+                newFile.append("\r\nPipeline failed at Stage ${CURRENT_STAGE}")   
+            }
         }
     }
 }
